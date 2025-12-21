@@ -14,6 +14,11 @@ Group:	Sound
 Url:		https://github.com/libsidplayfp/libsidplayfp
 Source0:	https://downloads.sourceforge.net/project/sidplay-residfp/libsidplayfp/1.0/libsidplayfp-%{version}.tar.gz
 Source100:	libsidplayfp.rpmlintrc
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	doxygen
 BuildRequires:	pkgconfig(libgcrypt)
 
